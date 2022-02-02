@@ -1,7 +1,7 @@
-import {LeaderType} from "../../types/LeaderType";
+import {Types} from "../../types/Types";
 
 export interface GameState {
-	leaderBoard: LeaderType[],
+	leaderBoard: Types[],
 	game?: string,
 	user?: string
 }
