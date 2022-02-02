@@ -5,5 +5,5 @@ RPS - Front end with NextJS and TailwindCSS
 - [x] Add Redux Thunk 
 - [x] Game Scene
 - [x] LeaderBoard
-- [ ] LeaderBoard connect backend
+- [x] LeaderBoard connect backend
 - [ ] Game Connect to backend
