@@ -1,7 +1,8 @@
 RPS - Front end with NextJS and TailwindCSS
 
 - [x] Add TailwindCSS
-- [x] Add Redux global GameState
+- [x] Add Redux for global state
+- [x] Add Redux Thunk 
 - [x] Game Scene
 - [x] LeaderBoard
 - [ ] LeaderBoard connect backend
