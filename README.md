@@ -14,6 +14,6 @@ RPS - Front end with NextJS and TailwindCSS
 
 ##Game Play
 
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+[![Game Play](https://github.com/ogtayhuseynov0/rps-front/raw/main/ss-Game.png)](https://github.com/ogtayhuseynov0/rps-front/raw/main/gameplay.mp4)
 
 
