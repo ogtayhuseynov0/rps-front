@@ -6,4 +6,13 @@ RPS - Front end with NextJS and TailwindCSS
 - [x] Game Scene
 - [x] LeaderBoard
 - [x] LeaderBoard connect backend
-- [ ] Game Connect to backend
+- [x] User Login
+- [x] User Update
+- [x] Game Connect to backend
+- [ ] Tests
+- [ ] Deployment
+
+##Game Play
+
+
+

@@ -26,7 +26,7 @@ function LeaderBoard() {
 		</div>
 		{gameState.leaderBoardLoading && <Loader/>}
 		{!gameState.leaderBoardLoading && <div id={'board'} className={'flex flex-col flex-grow mx-2 my-2'}>
-			{gameState.leaderBoard.map((a,i) => (<Leader key={a.id} Leader={a} place={i+1}/>))}
+			{gameState.leaderBoard.map((a,i) => (<Leader key={a.id} Leader={a} place={i+1} currentID={gameState.user?.uid}/>))}
         </div>}
 
 	</div>

@@ -14,7 +14,7 @@ export const gameReducer = (state: GameState = defGlobalGame, action: AnyAction)
 		case  'SET_USER':
 			return {...state, user: {...action.payload}}
 		case  'SET_GAME':
-			return {...state, game: {...action.payload}}
+			return {...state, game: action.payload}
 		case  'SET_LOAD':
 			return {...state, leaderBoardLoading: action.payload}
 		default:

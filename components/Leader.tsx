@@ -1,7 +1,7 @@
 import React from "react";
 import {User} from "../types/Types";
-function Leader({Leader, place}: {Leader: User, place:number}) {
-	return <dd className={`mt-1 text-sm text-gray-900  mx-2 bg-white rounded-md`}>
+function Leader({Leader, place, currentID}: {Leader: User, place:number, currentID: string|undefined}) {
+	return <dd className={`mt-1 text-sm text-gray-900  mx-2 ${currentID !==Leader.uid ?'bg-white': 'bg-green-200'} rounded-md`}>
 		<div role="list" className="border border-gray-300 rounded-md divide-y divide-gray-200">
 			<div className="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
 				<div className="w-0 flex-1 flex items-center">
