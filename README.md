@@ -12,7 +12,7 @@ RPS - Front end with NextJS and TailwindCSS
 - [ ] Tests
 - [ ] Deployment
 
-##Game Play
+## Game Play
 
 [![Game Play](https://github.com/ogtayhuseynov0/rps-front/raw/main/ss-Game.png)](https://github.com/ogtayhuseynov0/rps-front/raw/main/gameplay.mp4)
 
